@@ -1,0 +1,40 @@
+/* index.css .*/
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: gray;
+    transition: background-color 0.3s;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px 5px white;
+  }
+  
